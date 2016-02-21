@@ -1,4 +1,4 @@
-# LeetCode
+# Subway Accident Database System
 
 This is an academic project done by myself last year, including some basic database functions such as query, inserting data and so on.
 
