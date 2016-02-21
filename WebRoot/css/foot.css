@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+#foot_discription{
+	padding:10px;
+	text-align:right;
+	margin:0;
+	height:200px;
+	font: italic normal 18px/20px '微软雅黑';
+}

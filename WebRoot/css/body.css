@@ -1,0 +1,77 @@
+	@CHARSET "UTF-8";
+
+
+/*定义大div的样式*/
+#body_body{
+	height:400px;
+}
+
+/*定义表单的位置和样式*/
+#body_table{
+	width:520px;
+	height:200px;
+	margin:100px auto;
+}
+
+/*请输入检索条件*/
+.body_p{
+	font: normal normal 20px/20px '微软雅黑';
+}
+
+/*月份*/
+#body_month{
+	width:100px;
+}
+
+/*定义body.jsp中输入文本框的一般样式*/
+/*主要使用在年和日两个短输入框内*/
+.short_text{
+	width: 100px;
+	/*光标右闪*/
+	text-align:right;
+}
+
+/*定义关键字输入框的样式*/
+.long_text{
+	width:200px;
+
+}
+
+/*时间*/
+.body_time{
+	float:left;
+}
+
+/*地点*/
+.body_place{
+	float:left;
+	clear:both;
+}
+
+/*是否运营*/
+.body_running{
+	float:left;
+}
+
+/*关键字*/
+.body_keyword{
+	width:320px;
+	float:left;
+	text-align:right;
+}
+
+/*按钮div*/
+.body_button{
+	margin:0px;
+	float:left;
+	text-align:center;
+}
+
+/*按钮样式*/
+.button_style{
+	border:none;
+	cursor:hand;
+	width:100px;
+	height:29px;
+	background-image:url(../images/button.jpg);
+}

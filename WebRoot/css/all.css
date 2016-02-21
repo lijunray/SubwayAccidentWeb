@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+/*定义全局的一些样式*/
+/*所有jsp都应该引入这一css文件*/
+
+/*所有属性适用的样式*/
+*{
+	margin:5px;
+	font: normal normal 16px/20px '微软雅黑','黑体';
+}
+
+div{
+	
+	margin: 5px;
+}
+
+
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#index_body{
+	background-color:white;
+}
+
+.all_body{
+	margin:7px
+	float:left;
+
+}
+
+/*由于设置了全局的5px的margin值，导致option选项中也存在5px*/
+/*所以特意使用一个类来针对option做特别的样式设置*/
+.option_margin{
+	margin:0;
+}
+
+.all_button{
+	width:100px;
+}

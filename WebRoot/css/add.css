@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+#add_table{
+	margin:50 auto;
+	width:500px;
+}
+
+.add_table_rows{
+	padding:5px;
+	text-align:left;
+	
+}
+
+
+/*时间*/
+.body_time{
+	width:120px;
+}
+
+/*月份*/
+.add_month{
+	width:100px;
+}
+
+
+.add_short_text{
+	width: 100px;
+	/*光标右闪*/
+	text-align:right;
+}
+
+.add_long_text{
+	width:350px;
+}
+
+.add_file{
+	width:200px;
+}
+
+.submit_button_rows{
+	padding:5px;
+	text-align:center;
+}
+

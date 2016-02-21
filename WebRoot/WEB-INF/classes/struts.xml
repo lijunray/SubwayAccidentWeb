@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="test" extends="struts-default">
+	
+		<action name="user" class="com.saw.action.UserAction">
+			<result name="success">/WEB-INF/test/success.jsp</result>
+		</action>
+	
+	</package>
+	
+	<package name="all" extends="struts-default">
+		<action name="add" class="com.saw.action.AddAction">
+			<result name="success">/WEB-INF/test/success.jsp</result>
+		</action>
+	</package>
+
+	<package name="jump" extends="struts-default">
+		
+		<action name="jump-add">
+			<result>/WEB-INF/public/add.jsp</result>
+		</action>
+		
+		<action name="jump-index">
+			<result>/index.jsp</result>
+		</action>
+		
+		<action name="jump-contact">
+			<result>/WEB-INF/public/contact.jsp</result>
+		</action>
+		
+		<action name="jump-introduction">
+			<result>/WEB-INF/public/introduction.jsp</result>
+		</action>
+	</package>
+
+	<!-- 配置action，交给spring管理 -->
+</struts>

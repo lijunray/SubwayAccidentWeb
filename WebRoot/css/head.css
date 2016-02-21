@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+#header{
+	margin:0;
+	height: 200px;
+	background-image: url(../images/head.jpg);
+	background-repeat: no-repeat;
+	background-color: #FFFFCC;
+}
+
+#navigation{
+	width:280px;
+	height:30px;
+	float:right;
+	margin-top:160px;
+}
+
+a.head_navi:visited,a.head_navi:link,a.head_navi:hover,a.head_navi:active{
+	color:gray;
+	float:right;
+	margin-top:5px;
+	
+}
